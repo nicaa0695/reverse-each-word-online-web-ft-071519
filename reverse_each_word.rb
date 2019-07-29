@@ -9,10 +9,10 @@ def reverse_each_word(string)
     newString[j] = string
       i += 1 
       j += 1
-    end
+  end
     newString = string.collect do |reverse_string| reverse_string.reverse
      end
     end
   return newString.join(' ')
 end
-  
+reverse_each_word("Hello there, and how are you?")
